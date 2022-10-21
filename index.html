@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoomtech Studios - 2D Gaming</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css? family=Exo">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css? family=Arvo">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body onload="updateYear()">
+    <div class="container">
+        <div style="height: 5%;" class="navbar">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/zoomtech-logo2.png" height="80%" width="30%" alt="ZOOMTECH">
+            </a>
+            
+            <div style="width: 40%; height: 90%;" class="navLinks" id="navId">
+                <ul class="navItems">
+                    <li class="nav"> <a href="index.html"> Home </a></li>
+                    <li class="nav"> <a href="projects.html"> Projects </a> </li>
+                    <li class="nav"> <a href="about.html" > About Us</a> </li>
+                    <li class="nav"> <a href="privacypolicy.html" > Privacy </a> </li>
+                </ul>
+            </div>
+            
+            <div style="width: 7%; height: 40%;" class="navBtn">
+                <button type="button"; class="menu"; onclick="openNav()">
+                    <img id="navIcon"; src="images/navbar_icon.png"; width="99%"; height="99%"; alt="navbar icon";>
+                </button> 
+        
+            </div>
+        
+        </div>
+        <div style="height: 83%;" class="main_content">
+            <h3> Welcome to Zoomtech Studios</h3>
+
+            <div style="height: 26%; background-image: url('images/imgbg1.jpg'); background-size: cover;" class="c1">
+                <p class="text-center"><strong>DISCOVER</strong></p>
+        <p class="text-center"><strong>THE BEST</strong></p>
+        <p class="text-center"><strong>GAMES</strong></p>
+        <p class="text-center"><strong>EVER MADE</strong></p>
+                <!--<div style="width: fit-content; height: fit-content; margin-left: 66%; padding: 2%;" class="navLinks2" id="navId2">
+                    <ul class="navItems" id="menuItems" >
+                        <li> <a href="index.html"> Home </a></li>
+                        <li> <a href="projects.html"> Projects </a> </li>
+                        <li> <a href="about.html" > About Us</a> </li>
+                        <li> <a href="privacypolicy.html" > Privacy Policy </a> </li>
+                    </ul>
+                </div> -->
+    
+            </div>
+            
+            <div style="height: 26%; background-image: url('images/imgbg2.jpg'); background-size: cover;" class="c2">
+                <p class="text-center"><strong>WITH THE</strong></p>
+                <p class="text-center"><strong>POWER</strong></p>
+                <p class="text-center"><strong>OF THE</strong></p>
+                <p class="text-center"><strong>NEWEST AI</strong></p>
+                <p class="text-center"><strong>TECHNOLOGY</strong></p>
+    
+            </div>
+            <div style="height: 26%; background-image: url('images/imgbg3.jpg'); background-size: cover;" class="c3">
+                <p class="text-center"><strong>TRY</strong></p>
+                <p class="text-center"><strong>ONE OUT</strong></p>
+                <p class="text-center"><strong>TODAY</strong></p>
+    
+            </div>
+            <div style="height: 5%;"  class="footpage">
+                <p class="footer"> Copyright &copy; <span id="yr"></span> Zoomtech Studios All Rights Reserved</p>
+                <p class="footer"> <a href="privacypolicy.html"> Privacy Policy </a></p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
