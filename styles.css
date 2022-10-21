@@ -232,7 +232,7 @@ dt {
   
 }
 .navLinks {
-  display: block;
+  display: inline;
   position: absolute;
   width: max-content;
   left: 32%;
@@ -308,7 +308,7 @@ a:active, a:visited {
   }
   
   .navLinks {
-    display: block;
+    display: inline;
     position: absolute;
     width: max-content;
     left: 32%;
