@@ -64,24 +64,21 @@ table, th, td {
     margin: 2%;
     padding: 25%;
     text-align: center;
-    font-size: 85px;
-    color: #f00;
+  
 }
 
 .c2 {
     margin: 2%;
     padding: 25%;
     text-align: center;
-    font-size: 85px;
-    color: #f00;
+  
 }
 
 .c3 {
     margin: 2%;
     padding: 25%;
     text-align: center;
-    font-size: 85px;
-    color: #f00;
+  
 }
 
 .navbar {
@@ -130,29 +127,44 @@ table, th, td {
     text-align: center;
 
     margin: 3%;
-    color: #f00;
     
 }
-
-.main_content_about {
-  color: #0000ff;
-  font-size: 16px;
+.about{
+  margin-left: 25%;
+  margin-top: 5%;
+  text-align: left;
+  padding: 10%, 10%;
+  color: #fff;
   
 }
+
 .about-h {
-  color: #f00;
-  text-align: center;
+  color: #fff;
+  text-align: left;
 }
-.about {
-    margin: 20%, 3%;
+.about-p{
     text-align: left;
-    padding: 10%, 3%;
+    color: #fff;
     
 }
 
 .text-center {
   text-align: center;
-color: rgb(240, 0, 0);
+  font-family: Exo, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #f00;
+}
+.text-center-2 {
+  text-align: center;
+  font-family: Exo, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #00f;
+}
+.text-center-3 {
+  text-align: center;
+  font-family: Exo, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff;
 }
 h3 {
   text-align: center;
@@ -175,11 +187,9 @@ a:active, a:visited {
   font-size: 12px;
   color: #f7fbfc;
 }
-.about-p {
-  margin-left: 18%;
-  padding-left: 15%;
-  margin-bottom: -6px;
-  text-align: left;
+.imagecredit {
+  color: #fff;
+  font-size: 10px;
 }
 .b, .b1 {
   display: none;
@@ -223,6 +233,16 @@ dt {
     display: none;
     
   }
+  .about{
+    margin-left: 27%;
+    margin-top: 5%;
+    text-align: left;
+    padding: 10%, 10%;
+    color: #fff;
+    
+  }
+}
+
 @media only screen and (min-width: 1068px) {
 .navbar {
   position: relative;
@@ -269,15 +289,15 @@ a:active, a:visited {
   text-align: left;
   margin: 3%;
 }
-.about-h {
-  color: #f00;
-}
-.about-p {
-  margin-left: 35%;
-  padding-left: 10%;
-  margin-bottom: -6px;
+.about{
+  margin-left: 33%;
+  margin-top: 5%;
   text-align: left;
+  padding: 10%, 10%;
+  color: #fff;
+  
 }
+
 .b, .b1 {
   display: block;
 }
@@ -346,14 +366,17 @@ a:active, a:visited {
     margin: 3%;
 }
 .about-h {
-  color: #f00;
+  color: #fff;
 }
-.about-p {
+.about{
   margin-left: 36%;
-  padding-left: 10%;
-  margin-bottom: -6px;
+  margin-top: 5%;
   text-align: left;
+  padding: 10%, 10%;
+  color: #fff;
+  
 }
+
 .b, .b1 {
   display: block;
 }
